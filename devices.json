@@ -1,6 +1,15 @@
 {
   "devices": [
     {
+      "hwid": "2631250397",
+      "computer_name": "TAXUANPHUC",
+      "user_name": "ADMIN",
+      "tool_name": "AProty3.exe",
+      "status": "active",
+      "last_seen": "2026/06/24 01:16:59"
+    },
+
+    {
       "hwid": "3796731232",
       "computer_name": "TRUONG-EMBROIDE",
       "user_name": "Tx",
