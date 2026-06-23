@@ -591,12 +591,29 @@
             <input type="text" id="searchInput" placeholder="Tìm kiếm máy theo tên hoặc ID..." oninput="render()" />
           </div>
         </div>
+
+        <!-- Bulk actions controls -->
+        <div class="bulk-actions-row" style="margin-bottom: 16px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <span style="font-size: 0.85rem; color: var(--muted);">Hành động hàng loạt:</span>
+          <button onclick="bulkApprove(true)" class="btn-bulk ok" style="padding: 6px 12px; background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.25); color: var(--active); border-radius: 6px; font-size: 0.78rem; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 4px;">
+            <i class="fa-solid fa-circle-check"></i> Cấp quyền
+          </button>
+          <button onclick="bulkApprove(false)" class="btn-bulk warn" style="padding: 6px 12px; background: rgba(239, 68, 68, 0.12); border: 1px solid rgba(239, 68, 68, 0.25); color: var(--inactive); border-radius: 6px; font-size: 0.78rem; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 4px;">
+            <i class="fa-solid fa-ban"></i> Khóa
+          </button>
+          <button onclick="bulkDelete()" class="btn-bulk delete" style="padding: 6px 12px; background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.12); color: #cbd5e1; border-radius: 6px; font-size: 0.78rem; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 4px;">
+            <i class="fa-solid fa-trash-can"></i> Xóa
+          </button>
+          <button onclick="selectAllDevices(true)" class="btn-bulk-text" style="background: none; border: none; color: var(--primary); font-size: 0.78rem; cursor: pointer; text-decoration: underline; padding: 0;">Chọn tất cả</button>
+          <button onclick="selectAllDevices(false)" class="btn-bulk-text" style="background: none; border: none; color: var(--muted); font-size: 0.78rem; cursor: pointer; text-decoration: underline; padding: 0;">Bỏ chọn</button>
+        </div>
         
         <div id="devCards" class="mobile-only"></div>
         
         <table class="desktop-only">
           <thead>
             <tr>
+              <th style="width: 40px; text-align: center;"><input type="checkbox" id="selectAllCheckbox" onchange="toggleSelectAll(this)" style="cursor:pointer;" /></th>
               <th>Tên Máy</th>
               <th>Mã Thiết Bị (HWID)</th>
               <th>Cấp độ</th>
@@ -727,6 +744,7 @@
         const e = normDev(data.devices[id]);
         const shortId = id.length > 16 ? id.slice(0, 16) + '..' : id;
         tb.innerHTML += `<tr>
+          <td style="text-align: center;"><input type="checkbox" class="device-checkbox" data-id="${esc(id)}" onchange="updateSelectAllBadge()" style="cursor:pointer;" /></td>
           <td><strong style="color:var(--txt)">${esc(e.device_name || '?')}</strong></td>
           <td><code title="${esc(id)}">${esc(id)}</code></td>
           <td><span class="${tierClass(e.tier)}">${e.tier}</span></td>
@@ -735,7 +753,10 @@
           <td><div class="dev-actions" style="justify-content: flex-end;">${actionBtns(id, e)}</div></td></tr>`;
         cards.innerHTML += `<div class="dev-card ${e.pending ? 'pending' : ''}">
           <div class="dev-header">
-            <strong>${esc(e.device_name || 'Máy mới')}</strong>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <input type="checkbox" class="device-checkbox" data-id="${esc(id)}" onchange="updateSelectAllBadge()" style="cursor:pointer;" />
+              <strong>${esc(e.device_name || 'Máy mới')}</strong>
+            </div>
             ${statusLabel(e)}
           </div>
           <code>${esc(id)}</code>
@@ -814,6 +835,71 @@
       delete data.devices[id];
       setDirty(true); render();
       log('Đã xóa máy khỏi cơ sở dữ liệu: <code>' + id + '</code>', 'err');
+    }
+
+    function toggleSelectAll(masterCb) {
+      const cbs = document.querySelectorAll('.device-checkbox');
+      cbs.forEach(cb => cb.checked = masterCb.checked);
+    }
+
+    function selectAllDevices(val) {
+      const cbs = document.querySelectorAll('.device-checkbox');
+      cbs.forEach(cb => cb.checked = val);
+      const master = document.getElementById('selectAllCheckbox');
+      if (master) master.checked = val;
+    }
+
+    function updateSelectAllBadge() {
+      const cbs = document.querySelectorAll('.device-checkbox');
+      const checked = document.querySelectorAll('.device-checkbox:checked');
+      const master = document.getElementById('selectAllCheckbox');
+      if (master) {
+        master.checked = cbs.length > 0 && checked.length === cbs.length;
+        master.indeterminate = checked.length > 0 && checked.length < cbs.length;
+      }
+    }
+
+    function getSelectedIds() {
+      const checked = document.querySelectorAll('.device-checkbox:checked');
+      return Array.from(checked).map(cb => cb.getAttribute('data-id'));
+    }
+
+    function bulkApprove(approve) {
+      const ids = getSelectedIds();
+      if (ids.length === 0) return alert('Vui lòng chọn ít nhất một thiết bị');
+      if (!confirm(`Bạn có chắc chắn muốn ${approve ? 'cấp quyền' : 'khóa'} hàng loạt ${ids.length} thiết bị đã chọn?`)) return;
+      
+      ids.forEach(id => {
+        const e = getDev(id);
+        e.active = approve;
+        e.pending = false;
+        if (approve) {
+          if (e.expire === 'pending') {
+            const d = new Date(); d.setDate(d.getDate() + 30);
+            e.expire = d.toISOString().slice(0, 10);
+          }
+          if (e.tier === 'FREE') e.tier = 'PRO';
+        }
+        putDev(id, e);
+      });
+      
+      log(`Đã ${approve ? 'cấp quyền' : 'khóa'} hàng loạt ${ids.length} thiết bị.`, approve ? 'ok' : 'err');
+      selectAllDevices(false);
+    }
+
+    function bulkDelete() {
+      const ids = getSelectedIds();
+      if (ids.length === 0) return alert('Vui lòng chọn ít nhất một thiết bị');
+      if (!confirm(`Bạn có chắc chắn muốn XÓA hàng loạt ${ids.length} thiết bị đã chọn khỏi cơ sở dữ liệu?`)) return;
+      
+      ids.forEach(id => {
+        delete data.devices[id];
+      });
+      
+      setDirty(true);
+      render();
+      log(`Đã xóa hàng loạt ${ids.length} thiết bị khỏi cơ sở dữ liệu.`, 'err');
+      selectAllDevices(false);
     }
 
     function discardChanges() {
