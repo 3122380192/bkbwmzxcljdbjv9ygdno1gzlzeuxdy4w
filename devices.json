@@ -1,0 +1,831 @@
+{
+  "devices": [
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "BKAV.exe",
+      "status": "pending",
+      "last_seen": "2026/06/16 16:10:39"
+    },
+
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "AProty.exe",
+      "status": "pending",
+      "last_seen": "2026/06/16 16:01:38"
+    },
+
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "devenv6.au3",
+      "status": "pending",
+      "last_seen": "2026/06/16 15:38:46"
+    },
+
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "Auto_VuaLiDon_RZ2.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 18:58:16"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "devenv1.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 18:32:48"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "AProty3.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 18:30:23"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "Auto_VuaLiDon_RZ2.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 16:39:29"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "RankAI.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:35:49"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv6.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:35:37"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv5.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:35:28"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv4.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:35:18"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv3.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:35:11"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv2.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:35:02"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv1.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:34:55"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:34:44"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "LCFPASS.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:34:35"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "GP.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:34:28"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "riot.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:34:20"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "LCF.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:34:11"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "NoteText3.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:34:00"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "AProty3.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:33:47"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "AProty.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:33:38"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "devenv7.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 15:14:28"
+    },
+    {
+      "hwid": "3895789935",
+      "computer_name": "DESKTOP-HGJJKFI",
+      "user_name": "Gaming",
+      "tool_name": "BKAV.exe",
+      "status": "active",
+      "last_seen": "2026/06/12 04:59:09"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "Truong-embroider",
+      "user_name": "Tx",
+      "tool_name": "app.py",
+      "status": "active",
+      "last_seen": "2026/06/10 14:33:40"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "devenv6.exe",
+      "status": "active",
+      "last_seen": "2026/06/09 04:50:12"
+    },
+    {
+      "hwid": "2695297624",
+      "computer_name": "DESKTOP-JLKUHVG",
+      "user_name": "caubu",
+      "tool_name": "AProty3.exe",
+      "status": "active",
+      "last_seen": "2026/06/08 22:53:26"
+    },
+    {
+      "hwid": "104704000",
+      "computer_name": "DESKTOP-7L5DC9Q",
+      "user_name": "kakakakak",
+      "tool_name": "AProty3.exe",
+      "status": "active",
+      "last_seen": "2026/06/08 22:41:55"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "EIRALV.exe",
+      "status": "active",
+      "last_seen": "2026/06/08 20:33:11"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv.exe",
+      "status": "active",
+      "last_seen": "2026/06/07 05:36:49"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "Truong-embroider",
+      "user_name": "Tx",
+      "tool_name": "Auto Vua Li Don v1.0.2.exe",
+      "status": "active",
+      "last_seen": "2026/06/05 04:20:05"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "devenv7.exe",
+      "status": "active",
+      "last_seen": "2026/06/05 03:57:34"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "RankAI.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:38:45"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv6.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:38:36"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv5.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:38:27"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv4.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:38:17"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:38:03"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "LCFPASS.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:37:54"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "riot.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:37:41"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "NoteText3.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:37:01"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "AProty3.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:36:40"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv1.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:35:51"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv2.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:35:22"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv3.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:35:07"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "devenv7.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 20:34:29"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "devenv1.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 23:38:09"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "devenv3.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 23:37:58"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "devenv.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 23:36:04"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "Truong-embroider",
+      "user_name": "Tx",
+      "tool_name": "Tx6.exe",
+      "status": "active",
+      "last_seen": "2026/06/04 00:31:08"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "EIRALV.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 10:01:26"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "BKAV.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 10:01:10"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "AProty3.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 09:58:35"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "devenv2.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 09:58:10"
+    },
+    {
+      "hwid": "128446554",
+      "computer_name": "DESKTOP-644FBBF",
+      "user_name": "Administrator",
+      "tool_name": "AProty.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 09:16:14"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "Truong-embroider",
+      "user_name": "Tx",
+      "tool_name": "Deplao.exe",
+      "status": "active",
+      "last_seen": "2026/06/03 13:51:20"
+    },
+    {
+      "hwid": "3346505901",
+      "computer_name": "DESKTOP-0664B2B",
+      "user_name": "Administrator",
+      "tool_name": "LCF.exe",
+      "status": "active",
+      "last_seen": "2026/06/02 04:52:37"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "LCF.exe",
+      "status": "active",
+      "last_seen": "2026/06/02 01:15:50"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "LCF.au3",
+      "status": "active",
+      "last_seen": "2026/06/02 01:15:03"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "AProty.exe",
+      "status": "active",
+      "last_seen": "2026/06/01 23:59:38"
+    },
+    {
+      "hwid": "2384813970",
+      "computer_name": "DESKTOP-HKB5DK3",
+      "user_name": "GAMING CF",
+      "tool_name": "BKAV.exe",
+      "status": "active",
+      "last_seen": "2026/06/01 23:59:14"
+    },
+    {
+      "hwid": "3346505901",
+      "computer_name": "DESKTOP-0664B2B",
+      "user_name": "Administrator",
+      "tool_name": "devenv3.exe",
+      "status": "active",
+      "last_seen": "2026/06/01 01:09:09"
+    },
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
+      "tool_name": "Auto_VuaLiDon_RZ2.au3",
+      "status": "active",
+      "last_seen": "2026/06/01 00:38:06"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "addauto",
+      "status": "active",
+      "last_seen": "2026/05/31 17:33:29"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "autovualidon",
+      "status": "active",
+      "last_seen": "2026/05/31 17:06:11"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "vualidon",
+      "status": "active",
+      "last_seen": "2026/05/31 06:36:56"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "FAM-xa",
+      "status": "active",
+      "last_seen": "2026/05/31 06:22:08"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "Farm Than Chet rz2 1.5.au3",
+      "status": "active",
+      "last_seen": "2026/05/31 05:59:21"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "Farm Than Chet rz2 1.5.au3",
+      "status": "active",
+      "last_seen": "2026/05/31 05:59:12"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv1.exe",
+      "status": "active",
+      "last_seen": "2026/05/31 05:58:51"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "Auto Xa rz3 v1.0",
+      "status": "active",
+      "last_seen": "2026/05/31 05:58:15"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "Auto Xa rz2-4 v6.0",
+      "status": "active",
+      "last_seen": "2026/05/31 05:55:26"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "NoteText3.exe",
+      "status": "active",
+      "last_seen": "2026/05/30 13:37:35"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "devenv5.exe",
+      "status": "active",
+      "last_seen": "2026/05/30 13:33:32"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "BKAV.exe",
+      "status": "active",
+      "last_seen": "2026/05/30 13:33:19"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "rankai.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:40:12"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "gpvv.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:40:08"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv7.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:40:04"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv6.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:40:00"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv5.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:56"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv4.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:41"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv3.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:37"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "devenv2.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:33"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "riot.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:24"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "notetext3.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:20"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "lcfpass.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:16"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "lcf.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:13"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "gp.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:09"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "eiralv.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:05"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "bkav.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:39:01"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "aproty3.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:38:57"
+    },
+    {
+      "hwid": "1683321728",
+      "computer_name": "DESKTOP-CJVTCEQ",
+      "user_name": "Vua Li Don",
+      "tool_name": "aproty.exe",
+      "status": "active",
+      "last_seen": "2026/05/27 15:38:52"
+    },
+    {
+      "hwid": "3346505901",
+      "computer_name": "DESKTOP-0664B2B",
+      "user_name": "Administrator",
+      "tool_name": "devenv2.exe",
+      "status": "active",
+      "last_seen": "2026/05/26 03:59:31"
+    },
+    {
+      "hwid": "3346505901",
+      "computer_name": "DESKTOP-0664B2B",
+      "user_name": "Administrator",
+      "tool_name": "AProty.exe",
+      "status": "active",
+      "last_seen": "2026/05/26 00:44:05"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "gpvv.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 22:47:05"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "cfpvv.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 22:46:59"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "GP.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 22:46:50"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "LCF.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 22:46:38"
+    },
+    {
+      "hwid": "3168860605",
+      "computer_name": "5709DBBE5A42F66",
+      "user_name": "Administrator",
+      "tool_name": "devenv7.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 03:49:24"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "LCFPASS.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 17:28:11"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "devenv7.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 17:27:50"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "AProty.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 06:29:53"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "devenv3.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 06:29:36"
+    },
+    {
+      "hwid": "1042803200",
+      "computer_name": "DESKTOP-6QNFJ1J",
+      "user_name": "Mr.Tuan",
+      "tool_name": "devenv2.exe",
+      "status": "active",
+      "last_seen": "2026/05/25 06:28:37"
+    }
+  ]
+}

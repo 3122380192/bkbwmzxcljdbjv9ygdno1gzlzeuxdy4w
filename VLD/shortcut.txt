@@ -1,0 +1,22 @@
+AProty.exe|Auto Xả rz2-4 v6.0|A
+AProty3.exe|Auto Xả rz3 v1.0|A
+BKAV.exe|Auto Bú v4.9|A
+NoteText3.exe|Auto callboss (BLIZ) v1.3|A
+LCF.exe|Auto đăng nhập|F
+EIRALV.exe|BugTier-Boss v1.3|A
+CF_RE.exe|Tự động chạy lại tool test final|A
+riot.exe|CallBoss (riot)|F
+GP.exe|Treo_GP|F
+LCFPASS.exe|CFPASS 20p v3.1|F
+US.exe|UserCheck|S
+devenv.exe|Farm Gấu rz4 1.3|B
+devenv1.exe|Farm Lùm tre rz2 1.3|B
+devenv2.exe|Farm Gla rz4 1.3|B
+devenv3.exe|Farm Thần Chết rz2 1.5|B
+devenv4.exe|Di_Tích 1.2|B
+devenv5.exe|Trade thẻ 1.5|B
+devenv6.exe|farm rz3 1.0|B
+RankAI.exe|Auto Rank AI|B
+GPVV.exe|TreoGP (vv) - 50k|F
+CFPVV.exe|cfpas (vv) - 50k|F
+devenv7.exe|Phép thuật|S
