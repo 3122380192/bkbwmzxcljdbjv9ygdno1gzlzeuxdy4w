@@ -4,6 +4,15 @@
       "hwid": "3796731232",
       "computer_name": "TRUONG-EMBROIDE",
       "user_name": "Tx",
+      "tool_name": "NoteText3.exe",
+      "status": "active",
+      "last_seen": "2026/06/24 01:10:16"
+    },
+
+    {
+      "hwid": "3796731232",
+      "computer_name": "TRUONG-EMBROIDE",
+      "user_name": "Tx",
       "tool_name": "devenv.exe",
       "status": "pending",
       "last_seen": "2026/06/24 00:30:29"
